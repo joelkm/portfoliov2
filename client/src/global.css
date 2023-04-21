@@ -1,0 +1,24 @@
+:root {
+  /* COLOR START */
+
+  /* BG-COLOR */
+  --color-bg-interface: #101012;
+  --color-bg-page: #151517;
+  --color-bg-selected: #1E1D22;
+
+  /* EL-COLORS */
+  --color-el-active: #EAE9F0;
+  --color-el-pasive: #EAE9F0;
+  --color-el-selected: linear-gradient(circle at 10% 20%, rgb(253, 239, 132) 0%, rgb(247, 198, 169) 54.2%, rgb(21, 186, 196) 100.3%);
+
+  /* COLOR END */
+}
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-bg-interface);
+  }
