@@ -1,7 +1,8 @@
+import './Navigation.css'
 
 function Navigation() {
     return (
-        <div>
+        <div className="navigation">
 
         </div>
     )

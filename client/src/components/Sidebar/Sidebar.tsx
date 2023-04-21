@@ -1,8 +1,11 @@
+import './Sidebar.css'
 
 function Sidebar() {
     return (
-        <div>
-
+        <div className="sidebar">
+            <ul>
+                <li></li>
+            </ul>
         </div>
     )
 }

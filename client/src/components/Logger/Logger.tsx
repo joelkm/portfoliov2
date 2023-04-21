@@ -1,8 +1,14 @@
+import './Logger.css'
 
 function Logger() {
     return (
-        <div>
+        <div className='logger'>
+            <div>
 
+            </div>
+            <div>
+
+            </div>
         </div>
     )
 }

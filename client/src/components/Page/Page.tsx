@@ -1,8 +1,9 @@
+import './Page.css'
 
 function Page() {
     return (
-        <div>
-
+        <div className="page">
+hola
         </div>
     )
 }
