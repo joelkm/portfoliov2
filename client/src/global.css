@@ -22,4 +22,5 @@
     padding: 0;
     background-color: var(--color-bg-interface);
     color: var(--color-el-active);
+    font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif;
   }
