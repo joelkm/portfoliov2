@@ -1,0 +1,9 @@
+.folder button {
+    color: var(--color-el-active);
+    border: none;
+    background-color: transparent;
+}
+
+.folder button :hover {
+    cursor: pointer;
+}

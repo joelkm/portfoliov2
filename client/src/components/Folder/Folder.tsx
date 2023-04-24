@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
+import './Folder.css'
 
-function Folder(files) {
+function Folder({files}) {
     const [state, setState] = useState(false);
     const toggleFolder = () => {
         if (state) {
@@ -12,13 +13,13 @@ function Folder(files) {
 
     const listFile = files.map(file => 
         <li>
-            {file.name}
+            {file}
         </li>
     )
 
     return ( 
-        <li>
-            <button><i className="fa-solid fa-angle-right"></i><i className="fa-solid fa-folder"></i>Intro</button>
+        <li  className='folder'>
+            <button onClick={toggleFolder}><i className="fa-solid fa-angle-right"></i><i className="fa-solid fa-folder"></i>Intro</button>
             {state ?(<ul>
                 {listFile}
             </ul>):
@@ -27,3 +28,5 @@ function Folder(files) {
         </li>
     )
 }
+
+export default Folder;
